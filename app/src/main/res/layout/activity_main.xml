@@ -1,74 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg2"
     android:orientation="vertical"
-    android:background="@drawable/bg1"
     tools:context="com.example.android.helloandroid.MainActivity">
 
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/Image"
         android:scaleType="fitStart"
-        android:src="@drawable/udacty" />
+        android:src="@drawable/udacty"
+        android:layout_height="171dp"
+        android:layout_marginBottom="200dp"
+        android:contentDescription="@string/image"/>
 
     <TextView
         android:id="@+id/textView"
-        style="@android:style/Widget.DeviceDefault.Light.TextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/bg1"
+        style="@style/Textone"
         android:text="@string/moto"
-        android:textAlignment="center"
-        android:textColorLink="#1b6aea"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        android:textAlignment="center"/>
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="45dp"
-        android:text="@string/school"
+       style="@style/Texttwo"
         android:textAlignment="center"
-        android:textAllCaps="true" />
+        android:text="@string/school"
+         />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:autoLink="map"
+        style="@style/Textthree"
+        android:text="@string/adress1"
         android:paddingEnd="8dp"
-        android:paddingStart="8dp"
-        android:text="@string/adress1" />
+        android:paddingStart="8dp"/>
+
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:autoLink="map"
+        style="@style/Textfour"
+        android:text="@string/adress2"
         android:paddingEnd="8dp"
-        android:paddingStart="8dp"
-        android:text="@string/adress2" />
+        android:paddingRight="8dp"
+        android:paddingStart="25dp"
+        android:paddingLeft="8dp"/>
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:autoLink="phone"
+        style="@style/Textfive"
+        android:text="@string/phone"
         android:paddingEnd="8dp"
         android:paddingStart="8dp"
-        android:text="@string/phone" />
+        android:paddingLeft="8dp"/>
+
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:autoLink="web"
+       style="@style/Textsix"
+        android:text="@string/url"
         android:paddingEnd="8dp"
         android:paddingStart="8dp"
-        android:text="@string/url" />
+        android:paddingLeft="8dp"/>
 </LinearLayout>
