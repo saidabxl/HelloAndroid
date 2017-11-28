@@ -12,15 +12,16 @@
 
     <ImageView
         style="@style/Image"
-        android:scaleType="fitStart"
-        android:src="@drawable/udacty"
-        android:layout_height="171dp"
+        android:layout_height="113dp"
         android:layout_marginBottom="200dp"
-        android:contentDescription="@string/image"/>
+        android:contentDescription="@string/image"
+        android:scaleType="fitStart"
+        android:src="@drawable/udacty" />
 
     <TextView
         android:id="@+id/textView"
         style="@style/Textone"
+        android:background="@drawable/bg2"
         android:text="@string/moto"
         android:textAlignment="center"
         tools:textColor="@android:color/darker_gray" />
@@ -28,6 +29,7 @@
     <TextView
         android:id="@+id/textView2"
         style="@style/Texttwo"
+        android:background="@drawable/bg1"
         android:text="@string/school"
         android:textAlignment="center"
         android:textColor="@android:color/darker_gray" />
@@ -35,20 +37,21 @@
     <TextView
         android:id="@+id/textView3"
         style="@style/Textthree"
-        android:text="@string/adress1"
-        android:paddingEnd="8dp"
         android:drawablePadding="4dp"
-        android:paddingStart="8dp"/>
+        android:paddingEnd="8dp"
+        android:paddingStart="8dp"
+        android:text="@string/adress1" />
 
 
     <TextView
         android:id="@+id/textView4"
         style="@style/Textfour"
-        android:text="@string/adress2"
+        android:autoLink="map"
         android:paddingEnd="8dp"
+        android:paddingLeft="8dp"
         android:paddingRight="8dp"
         android:paddingStart="30dp"
-        android:paddingLeft="8dp"/>
+        android:text="@string/adress2" />
 
     <TextView
         android:id="@+id/textView5"
