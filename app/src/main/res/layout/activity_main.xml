@@ -37,6 +37,7 @@
         style="@style/Textthree"
         android:text="@string/adress1"
         android:paddingEnd="8dp"
+        android:drawablePadding="4dp"
         android:paddingStart="8dp"/>
 
 
@@ -46,7 +47,7 @@
         android:text="@string/adress2"
         android:paddingEnd="8dp"
         android:paddingRight="8dp"
-        android:paddingStart="25dp"
+        android:paddingStart="30dp"
         android:paddingLeft="8dp"/>
 
     <TextView
@@ -55,6 +56,7 @@
         android:text="@string/phone"
         android:paddingEnd="8dp"
         android:paddingStart="8dp"
+        android:drawablePadding="4dp"
         android:paddingLeft="8dp"/>
 
 
@@ -64,5 +66,6 @@
         android:text="@string/url"
         android:paddingEnd="8dp"
         android:paddingStart="8dp"
-        android:paddingLeft="8dp"/>
+        android:paddingLeft="8dp"
+        android:drawablePadding="4dp" />
 </LinearLayout>
