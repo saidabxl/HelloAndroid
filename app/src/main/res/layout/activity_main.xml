@@ -21,7 +21,6 @@
     <TextView
         android:id="@+id/textView"
         style="@style/Textone"
-        android:background="@drawable/bg2"
         android:text="@string/moto"
         android:textAlignment="center"
         tools:textColor="@android:color/darker_gray" />
@@ -29,7 +28,6 @@
     <TextView
         android:id="@+id/textView2"
         style="@style/Texttwo"
-        android:background="@drawable/bg1"
         android:text="@string/school"
         android:textAlignment="center"
         android:textColor="@android:color/darker_gray" />
