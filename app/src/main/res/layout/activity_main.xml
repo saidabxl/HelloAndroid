@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,13 +8,9 @@
     android:orientation="vertical"
     tools:context="com.example.android.helloandroid.MainActivity">
 
-
     <ImageView
+        android:id="@+id/image"
         style="@style/Image"
-        android:layout_height="113dp"
-        android:layout_marginBottom="200dp"
-        android:contentDescription="@string/image"
-        android:scaleType="fitStart"
         android:src="@drawable/udacty" />
 
     <TextView
@@ -23,50 +18,33 @@
         style="@style/Textone"
         android:text="@string/moto"
         android:textAlignment="center"
-        tools:textColor="@android:color/darker_gray" />
+        android:textColor="@color/text" />
 
     <TextView
         android:id="@+id/textView2"
         style="@style/Texttwo"
         android:text="@string/school"
         android:textAlignment="center"
-        android:textColor="@android:color/darker_gray" />
+        android:textColor="@color/text" />
 
     <TextView
         android:id="@+id/textView3"
         style="@style/Textthree"
-        android:drawablePadding="4dp"
-        android:paddingEnd="8dp"
-        android:paddingStart="8dp"
         android:text="@string/adress1" />
-
 
     <TextView
         android:id="@+id/textView4"
         style="@style/Textfour"
-        android:autoLink="map"
-        android:paddingEnd="8dp"
-        android:paddingLeft="8dp"
-        android:paddingRight="8dp"
-        android:paddingStart="30dp"
         android:text="@string/adress2" />
 
     <TextView
         android:id="@+id/textView5"
         style="@style/Textfive"
-        android:text="@string/phone"
-        android:paddingEnd="8dp"
-        android:paddingStart="8dp"
-        android:drawablePadding="4dp"
-        android:paddingLeft="8dp"/>
-
+        android:text="@string/phone" />
 
     <TextView
         android:id="@+id/textView6"
-       style="@style/Textsix"
-        android:text="@string/url"
-        android:paddingEnd="8dp"
-        android:paddingStart="8dp"
-        android:paddingLeft="8dp"
-        android:drawablePadding="4dp" />
+        style="@style/Textsix"
+        android:text="@string/url" />
+
 </LinearLayout>
